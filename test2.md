@@ -1,4 +1,3 @@
 # this is for demo
 
-thanks,
-osmond
+![hihihihi](IMG_1269.JPG)
