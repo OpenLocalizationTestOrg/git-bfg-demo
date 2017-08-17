@@ -1,5 +1,6 @@
-1. Install Java https://java.com/en/download/
-2. Download BFG https://aur.archlinux.org/packages/bfg/
-3. Copy bfg.jar to target repo
+1. install Java https://java.com/en/download/
+2. download BFG https://aur.archlinux.org/packages/bfg/
+3. copy bfg.jar to target repo
+4. delete all art files
 4. run command "java -d64 -Xmx6g -jar bfg.jar -D *.{jpg,jpeg,png,gif,svg}"
 5. run command "git reflog expire --expire=now --all && git gc --prune=now --aggressive"
